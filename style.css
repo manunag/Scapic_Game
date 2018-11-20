@@ -3,9 +3,9 @@
                 display: inline;
                 position: relative;
             }
-            
-            header { 
-                
+
+            header {
+
                 display: block;
                 background-color: black;
                 padding: 20px 20px;
@@ -17,7 +17,7 @@
 
             body {
                 padding: 1px;
-                margin: 0;  
+                margin: 0;
             }
 
             #started {
@@ -27,3 +27,50 @@
             .button {
                 border-radius: 4px;
             }
+
+            .nav {
+  height: 50px;
+  width: 100%;
+  background-color: black;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.nav > .nav-header {
+  display: inline;
+}
+
+.nav > .nav-header > .nav-title {
+  display: inline-block;
+  font-size: 22px;
+  color: #fff;
+  padding: 10px 10px 10px 10px;
+}
+
+.pure-button {
+    background-color: green;
+}
+
+
+.wrapper {
+  text-align: left;
+  /* background: rgb(250, 250, 250); */
+  padding-top: 2px;
+  padding-left: 20px;
+  background: rgb(240, 240, 240);
+  border: 1px solid #ddd;
+}
+
+.grids-example {
+            background: rgb(250, 250, 250);
+            margin: 2em auto;
+            font-family: Consolas, 'Liberation Mono', Courier, monospace;
+            text-align: left;
+         }
+
+         .graybox {
+            padding-top: 2px;
+            padding-left: 20px;
+            background: rgb(240, 240, 240);
+            border: 1px solid #ddd;
+         }
