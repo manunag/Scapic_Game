@@ -3,60 +3,82 @@
     <head>
           <link rel="stylesheet" type="text/css" href="style.css">
           <script type="text/javascript" src="script.js"></script>
+          <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+          <!-- <link rel="stylesheet" href="pure-min.css"> -->
     </head>
 <body>
-    
-    <header>
-        Game
-    </header>
-    <div id="nostart">
-    <h2>Number Game</h2>
-        <p> 
-            <h2> The rules of the game are:</h2>
 
-            <ul>            
-                <li>
-                When the game starts, you have 1000 INR.
-                </li>
-                <li>
-                Every time you press start, 3 random numbers are genereated, 100 INR gets deducted.
-                </li>
-                <li>
-                If the random numbers are either even or odd, you get 300 INR.
-                </li>
-                <li>
-                If the numbers are in sequene with difference of 1 in any order (eg: 123,012,... etc), you get 800 INR.
-                </li>
-                <li>
-                If all the random number are same, you get 1000 INR.
-                </li>
-                <li>
-                If INR reaches 0, Gave Over.
-                </li>
-                <br>
-
-            </ul>
-        
-        You have 1000 INR.
-
-
-    </p>
+<div class="nav">
+  <div class="nav-header">
+    <div class="nav-title">
+      Game
     </div>
-    
+  </div>
+</div>
+
+
+<div id="nostart">
+  <div class = "grids-example">
+   <div class = "pure-g">
+      <div class = "pure-u-3-5">
+         <div class = "graybox">
+
+         <div>
+           <h1>Number Game</h1>
+           <p> <h2> The rules of the game are:</h2>
+           <ul>
+               <li>
+               When the game starts, you have 1000 INR.
+               </li>
+               <li>
+               Every time you press start, 3 random numbers are genereated, 100 INR gets deducted.
+               </li>
+               <li>
+               If the random numbers are either even or odd, you get 300 INR.
+               </li>
+               <li>
+               If the numbers are in sequene with difference of 1 in any order (eg: 123,012,... etc), you get 800 INR.
+               </li>
+               <li>
+               If all the random number are same, you get 1000 INR.
+               </li>
+               <li>
+               If INR reaches 0, Gave Over.
+               </li>
+               <br>
+               <strong> You have 1000 INR. </strong>
+
+           </ul>
+           </p>
+         </div>
+      </div>
+   </div>
+</div>
+</div>
+</div>
+
+
     <div id="started">
+    <div class = "wrapper">
     <p> The random numbers are:</p>
         <div class="dd">
             <br>
             <p id="one"></p>
             <p id="two"></p>
             <p id="three"></p>
-        </div>        
+        </div>
         <p id="lk"></p>
         <p> You have <b  id="start"></b> INR</p>
         <h1 id="over"></h1>
         </div>
-        <button class= "button" onclick="myfun()">Start</button>
+      </div>
+      <br>
+        <button class="pure-button pure-button-primary" onclick="myfun()">Start</button>
 
+    </div>
+ </div>
+</div>
 
 </body>
+
 </html>
