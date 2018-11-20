@@ -1,0 +1,29 @@
+        .dd p{
+                padding: 25px;
+                display: inline;
+                position: relative;
+            }
+            
+            header { 
+                
+                display: block;
+                background-color: black;
+                padding: 20px 20px;
+                text-decoration: none;
+                color: white;
+                font-size: 30px;
+                margin-left: 0;
+            }
+
+            body {
+                padding: 1px;
+                margin: 0;  
+            }
+
+            #started {
+                display: none;
+            }
+
+            .button {
+                border-radius: 4px;
+            }
